@@ -5,23 +5,21 @@ import Nav from "./Nav";
 import Section from "./Section";
 import Aside from "./Aside";
 import Data from "./Data";
+import Burger from "./Burger";
+import './style.css';
+import './Menu.css'
 
-import "./App.css";
+  function App() {
+    const appData = Data();
 
-function App() {
-  const appData = Data();
-
-  return (
+     return (
     <div className="App">
+ 
       <Header />
-
       <Hello name={appData.name} />
-
       <Nav />
-
-      <Header />
-
-      <main>
+      <Burger/>
+     <main>
         <Section />
 
         <Aside content="Aside content..." />
@@ -32,7 +30,11 @@ function App() {
         <p>Footer Placeholder</p>
       </footer>
     </div>
-  );
-}
+       
+    );
+  }
+
+
+ 
 
 export default App;
