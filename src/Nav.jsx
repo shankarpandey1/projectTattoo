@@ -1,17 +1,20 @@
 import React from 'react';
+import { Link, Route, Routes } from "react-router-dom";
 
 function Nav() {
-  return (
+  // return (
 
 
-    <nav>
-      <ul>
-        <li>Nav Item 1</li>
-        <li>Nav Item 2</li>
-        <li>Nav Item 3</li>
-      </ul>
-    </nav>
-  );
+  //   <nav>
+  //     <ul>
+  //       <li><Link to="/">Home</link></li>
+  //       <li><Link to="/about">About</link></li>
+  //       <li><link to="/services">Services</link></li>
+  //       <li><link to="/gallery">Gallery</link></li>
+  //       <li><link to="/contact">Contact</link></li>
+  //     </ul>
+  //   </nav>
+  // );
 }
 
 export default Nav;

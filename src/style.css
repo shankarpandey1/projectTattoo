@@ -1,4 +1,133 @@
-/* /* html,
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+  }
+  
+  header h1 {
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  main {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #f1d1d1;
+    font-size: 20px;
+  }
+  
+  section article {
+    background-color: rgb(194, 171, 171);
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: 2px solid magenta;
+    animation: randomOutline 5s infinite;
+  }
+  
+  aside {
+    background-color: rgb(194, 171, 171);
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: 2px solid magenta;
+    animation: randomOutline 5s infinite;
+    width:fit-content;
+    align-items: right;
+    -moz-box-align: end;
+  }
+
+  .product {
+    background-color: rgb(235, 194, 194);
+    color: black;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+    outline: 2px solid rgb(54, 190, 163);
+    width:fit-content;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .icon i {
+    font-size: 18px;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .mailto {
+    display: block;
+    width: 100px;
+    height: 20px;
+  }
+  
+  @keyframes randomOutline {
+    0% { outline-color: magenta; }
+    25% { outline-color: #ff00ff; }
+    50% { outline-color: #ff99ff; }
+    75% { outline-color: #ff66ff; }
+    100% { outline-color: magenta; }
+  }
+  
+  /* /* html,
 body,
 .app {
   height: 100%;
@@ -430,121 +559,3 @@ section article, aside {
     animation: randomOutline 5s infinite;
   }
    */
-
-
-
-
-   body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-  }
-  
-  header h1 {
-    margin-bottom: 20px;
-  }
-  
-  nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: gray;
-  }
-  
-  main {
-    padding: 20px;
-    margin: 20px 0;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  section h2 {
-    color: #f1d1d1;
-    font-size: 20px;
-  }
-  
-  section article {
-    background-color: rgb(194, 171, 171);
-    color: black;
-    padding: 10px;
-    margin-bottom: 10px;
-    outline: 2px solid magenta;
-    animation: randomOutline 5s infinite;
-  }
-  
-  aside {
-    background-color: rgb(194, 171, 171);
-    color: black;
-    padding: 10px;
-    margin-bottom: 20px;
-    outline: 2px solid magenta;
-    animation: randomOutline 5s infinite;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .icon {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .icon i {
-    font-size: 18px;
-  }
-  
-  .App {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .mailto {
-    display: block;
-    width: 100px;
-    height: 20px;
-  }
-  
-  @keyframes randomOutline {
-    0% { outline-color: magenta; }
-    25% { outline-color: #ff00ff; }
-    50% { outline-color: #ff99ff; }
-    75% { outline-color: #ff66ff; }
-    100% { outline-color: magenta; }
-  }
-  
